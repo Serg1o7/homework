@@ -29,6 +29,7 @@ hr {
     font-size: 20px;
     line-height: 20px;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .text4 {
@@ -51,5 +52,9 @@ hr {
     font-size: 20px;
     line-height: 20px;
     letter-spacing: 5px;
-    border-bottom: 8px double black; display: inline-block;
+}
+
+.double-underline {
+    text-decoration: double 2px black underline;
+    text-decoration-skip-ink: auto
 }
